@@ -4981,9 +4981,10 @@
   },
   "twilightforest:progress_labyrinth": {
     "criteria": {
+      "meef": "2025-09-13 06:44:59 +0000",
       "kill_lich": "2025-09-11 12:18:18 +0000"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:progress_yeti": {
     "criteria": {
@@ -5122,9 +5123,11 @@
   },
   "twilightforest:progress_merge": {
     "criteria": {
+      "hydra": "2025-09-13 06:46:19 +0000",
+      "snow_queen": "2025-09-13 06:44:07 +0000",
       "ur_ghast": "2025-09-11 12:26:08 +0000"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
     "criteria": {
@@ -5219,6 +5222,13 @@
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-09-13 06:24:20 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_troll": {
+    "criteria": {
+      "previous_progression": "2025-09-13 06:46:19 +0000",
+      "lamp": "2025-09-13 06:50:36 +0000"
     },
     "done": true
   },
@@ -5345,6 +5355,12 @@
   "farmersdelight:recipes/combat/golden_knife": {
     "criteria": {
       "has_gold_ingot": "2025-09-13 06:24:20 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/snow_queen_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-09-13 06:44:33 +0000"
     },
     "done": true
   },
@@ -5534,6 +5550,12 @@
     },
     "done": true
   },
+  "twilightforest:troll": {
+    "criteria": {
+      "troll": "2025-09-13 06:51:01 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/network/cables/glass_pink": {
     "criteria": {
       "has_dyes/black": "2025-09-13 06:08:24 +0000"
@@ -5660,6 +5682,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-09-13 06:44:59 +0000"
+    },
+    "done": true
+  },
   "appmek:recipes/misc/chemical_storage_cell_64k": {
     "criteria": {
       "has_cell_component_64k": "2025-09-13 06:23:13 +0000"
@@ -5696,6 +5724,12 @@
     },
     "done": true
   },
+  "biomeswevegone:biomeswevegone/husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-09-13 06:44:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2025-09-13 06:24:20 +0000"
@@ -5711,6 +5745,13 @@
   "aether:recipes/combat/golden_pendant": {
     "criteria": {
       "has_gold_ingot": "2025-09-13 06:24:20 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:beanstalk": {
+    "criteria": {
+      "beans": "2025-09-13 06:50:45 +0000",
+      "use_beans": "2025-09-13 06:51:54 +0000"
     },
     "done": true
   },
@@ -5749,6 +5790,18 @@
       "has_andesite": "2025-09-13 05:59:37 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-09-13 06:44:18 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "meef_stroganoff": "2025-09-13 06:44:59 +0000"
+    },
+    "done": false
   },
   "create:recipes/building_blocks/cut_granite_slab_from_stone_types_granite_stonecutting": {
     "criteria": {
@@ -5800,9 +5853,16 @@
   },
   "twilightforest:progress_glacier": {
     "criteria": {
-      "previous_progression": "2025-09-13 06:40:20 +0000"
+      "previous_progression": "2025-09-13 06:40:20 +0000",
+      "queen": "2025-09-13 06:44:07 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "twilightforest:recipes/misc/hydra_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-09-13 06:46:35 +0000"
+    },
+    "done": true
   },
   "ae2:recipes/misc/network/cables/dense_covered_pink": {
     "criteria": {
@@ -5954,6 +6014,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-09-13 06:44:59 +0000"
+    },
+    "done": true
+  },
   "twilightforest:recipes/decorations/iron_ladder": {
     "criteria": {
       "has_iron_bars": "2025-09-13 06:30:59 +0000"
@@ -5975,6 +6041,13 @@
   "create:recipes/building_blocks/cut_granite_brick_wall_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2025-09-13 05:58:20 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "kill_hydra": "2025-09-13 06:46:19 +0000",
+      "stroganoff": "2025-09-13 06:44:59 +0000"
     },
     "done": true
   },
@@ -6056,6 +6129,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-09-13 06:44:59 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_granite_bricks_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2025-09-13 05:58:20 +0000"
@@ -6107,6 +6186,13 @@
   "tconstruct:recipes/redstone/smeltery/seared/duct": {
     "criteria": {
       "has_item": "2025-09-13 06:24:20 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:giants": {
+    "criteria": {
+      "pickaxe": "2025-09-13 06:50:45 +0000",
+      "giant": "2025-09-13 06:47:39 +0000"
     },
     "done": true
   },
@@ -6218,9 +6304,21 @@
     },
     "done": true
   },
+  "twilightforest:progression_end": {
+    "criteria": {
+      "previous_progression": "2025-09-13 06:50:36 +0000"
+    },
+    "done": false
+  },
   "create:recipes/building_blocks/tiled_glass_from_glass_colorless_stonecutting": {
     "criteria": {
       "has_glass_colorless": "2025-09-13 06:24:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-09-13 06:44:18 +0000"
     },
     "done": true
   },

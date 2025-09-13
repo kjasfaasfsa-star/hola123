@@ -1,0 +1,1546 @@
+[13Sep2025 05:21:09.209] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13Sep2025 05:21:09.214] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[13Sep2025 05:21:16.799] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Sep2025 05:21:16.921] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/hola123/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Sep2025 05:21:17.615] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hola123/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[13Sep2025 05:21:17.616] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hola123/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Sep2025 05:21:17.616] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hola123/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Sep2025 05:21:17.617] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hola123/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Sep2025 05:21:18.266] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[13Sep2025 05:21:18.267] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/hola123/servidor_minecraft/mods/geckolib-forge-1.20.1-4.7.4.jar
+[13Sep2025 05:21:18.268] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/hola123/servidor_minecraft/mods/curios-forge-5.14.1+1.20.1.jar
+[13Sep2025 05:21:18.268] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: cloth_config. Using Mod File: /workspaces/hola123/servidor_minecraft/mods/cloth-config-11.1.136-forge.jar
+[13Sep2025 05:21:18.268] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 21 dependencies adding them to mods collection
+[13Sep2025 05:21:22.394] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Sep2025 05:21:22.767] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.leobeliik.extremesoundmuffler.MixinConnector]
+[13Sep2025 05:21:22.767] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Sep2025 05:21:22.991] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 186 options available, 0 override(s) found
+[13Sep2025 05:21:23.025] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Sep2025 05:21:23.030] [main/WARN] [mixin/]: Reference map 'bml.refmap.json' for bml.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Sep2025 05:21:23.054] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Sep2025 05:21:23.129] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Sep2025 05:21:23.182] [main/INFO] [Puzzles Lib/]: Loading 140 mods:
+	- advancednetherite 2.1.3
+	- advancementplaques 1.6.9
+	- ae2 15.4.8
+	- ae2wtlib 15.2.3-forge
+	- aether 1.20.1-1.5.2-neoforge
+		|-- cumulus_menus 1.20.1-1.0.1-neoforge
+		\-- nitrogen_internals 1.20.1-1.0.12-neoforge
+	- alexsdelight 1.5
+	- alexsmobs 1.22.9
+	- apotheosis 7.4.8
+	- appleskin 2.5.1+mc1.20.1
+	- appmek 1.4.2
+	- architectury 9.2.14
+	- ars_nouveau 4.12.7
+	- artifacts 9.5.16
+		\-- expandability 9.0.4
+	- attributeslib 1.3.7
+	- balm 7.3.34
+		\-- kuma_api 20.1.10
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterfortresses 1.20-Forge-2.0.6
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- biomesoplenty 19.0.0.92
+	- biomeswevegone 1.4.3
+	- blackdogsmoddinglibrary 1.1.8
+	- buildinggadgets2 1.0.8
+	- bygonenether 1.3.2
+	- caelus 3.2.0+1.20.1
+	- carryon 2.1.2.7
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- corgilib 4.0.3.4
+	- coroutil 1.20.1-1.3.7
+	- corpse 1.20.1-1.0.21
+	- cosmeticarmorreworked 1.20.1-v1a
+	- craftingtweaks 18.2.6
+	- create 6.0.6
+		|-- flywheel 1.0.4
+		|-- mixinextras 0.4.1
+		\-- ponder 1.0.80
+	- creeperoverhaul 3.0.2
+		\-- resourcefullib 2.1.20
+	- curios 5.14.1+1.20.1
+	- cyclopscore 1.20.1
+	- dungeoncrawl 2.3.15
+	- easy_villagers 1.20.1-1.1.23
+	- easyanvils 8.0.2
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- enchantinginfuser 8.0.3
+	- evilcraft 1.2.58
+		\-- evilcraftcompat 1.2.58
+	- expatternprovider 1.20-1.4.4-forge
+	- explorerscompass 1.20.1-1.3.3-forge
+	- explorify 1.6.2
+	- extremesoundmuffler 3.48
+	- fallingtree 4.3.4
+	- farmersdelight 1.20.1-1.2.9
+	- fastbench 8.0.4
+	- fastleafdecay 32
+	- fluxnetworks 7.2.1.15
+	- forge 47.3.7
+	- framedblocks 9.4.2
+	- ftbchunks 2001.3.6
+	- ftblibrary 2001.2.10
+	- ftbteams 2001.3.1
+	- ftbultimine 2001.1.7
+	- functionalstorage 1.20.1-1.2.10
+	- gateways 4.2.6
+	- geckolib 4.7.4
+	- glitchcore 0.0.1.1
+	- glodium 1.20-1.5-forge
+	- guideme 20.1.12
+	- iceberg 1.1.25
+	- immersive_aircraft 1.3.3+1.20.1
+	- ironfurnaces 4.1.6
+	- irons_spellbooks 1.20.1-3.4.0.7
+	- jade 11.13.2+forge
+	- jadeaddons 5.5.0+forge
+	- jei 15.20.0.112
+	- jei_mekanism_multiblocks 4.11
+	- jeresources 1.4.0.247
+	- jetboots 1.2.6
+	- justenoughprofessions 3.0.1
+	- justzoom 2.1.1
+	- kaleidoscope_cookery 1.0.1-forge+mc1.20.1
+	- konkrete 1.8.0
+	- lithostitched 1.4.11
+	- lootr 0.7.35.92
+	- mantle 1.11.79
+	- mcpitanlib 3.3.9-1.20.1-forge
+	- mcwfurnitures 3.3.0
+	- mekanism 10.4.16
+	- mekanismgenerators 10.4.16
+	- mekanismtools 10.4.16
+	- minecraft 1.20.1
+	- mob_grinding_utils 1.20.1-1.1.0
+	- moonlight 1.20-2.16.8
+	- mousetweaks 2.25.1
+	- naturescompass 1.20.1-1.11.2-forge
+	- nethersdelight 1.20.1-4.0
+	- noisium 2.3.0+mc1.20-1.20.1
+	- oceansdelight 1.0.2-1.20
+	- octolib 0.5.0.1
+	- ohthetreesyoullgrow 1.3.13
+	- patchouli 1.20.1-84.1-FORGE
+	- pickupnotifier 8.0.0
+	- placebo 8.6.3
+	- playeranimator 1.0.2-rc1+1.20
+	- powah 5.0.11
+	- prism 1.0.5
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- rarcompat 0.1.7
+	- relics 0.8.0.9
+	- resourcefulconfig 2.1.3
+	- rightclickharvest 3.2.0+1.20.1-forge
+	- simplylight 1.20.1-1.4.6-build.50
+	- skinlayers3d 1.9.0
+		|-- transition 1.0.4
+		\-- trender 1.0.6
+	- skinrestorer 2.3.5+1.20-forge
+	- sodiumdynamiclights 1.0.9
+		\-- fabric_api_base 0.4.31+ef105b4977
+	- sodiumoptionsapi 1.0.10
+	- sophisticatedbackpacks 3.23.27.1320
+	- sophisticatedcore 1.2.84.1117
+	- sophisticatedstorage 1.4.1.1261
+	- storagedrawers 12.14.0
+	- structory 1.3.5
+	- tconstruct 3.10.2.92
+	- tectonic 3.0.12
+	- terrablender 3.0.1.10
+	- titanium 3.8.32
+	- torchmaster 20.1.9
+	- twilightforest 4.3.2508
+	- visualworkbench 8.0.1
+	- waystones 14.1.17
+	- xaerominimap 25.2.10
+	- xaeroworldmap 1.39.12
+	- yungsapi 1.20-Forge-4.0.6
+[13Sep2025 05:21:23.683] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[13Sep2025 05:21:24.030] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2025 05:21:24.039] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2025 05:21:24.134] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[13Sep2025 05:21:24.135] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[13Sep2025 05:21:24.135] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[13Sep2025 05:21:24.188] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[13Sep2025 05:21:24.190] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2025 05:21:24.191] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2025 05:21:24.875] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/api/wires/GlobalWireNetwork (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.api.wires.GlobalWireNetwork)
+[13Sep2025 05:21:24.875] [main/WARN] [mixin/]: @Mixin target blusunrize.immersiveengineering.api.wires.GlobalWireNetwork was not found mixins.epp.json:MixinGlobalWireNetwork
+[13Sep2025 05:21:24.937] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[13Sep2025 05:21:24.939] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[13Sep2025 05:21:24.939] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[13Sep2025 05:21:25.359] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13Sep2025 05:21:27.933] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[13Sep2025 05:21:29.869] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2025 05:21:29.870] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2025 05:21:30.022] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[13Sep2025 05:21:32.525] [main/WARN] [mixin/]: Method overwrite conflict for scheduleRandomTick in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[13Sep2025 05:21:32.525] [main/WARN] [mixin/]: Method overwrite conflict for getScheduledRandomTicks in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[13Sep2025 05:21:32.726] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[13Sep2025 05:21:33.085] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[13Sep2025 05:21:33.086] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[13Sep2025 05:21:34.565] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[13Sep2025 05:21:35.462] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13Sep2025 05:21:35.465] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id powah:packet
+[13Sep2025 05:21:35.609] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for pickupnotifier:main
+[13Sep2025 05:21:36.020] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[13Sep2025 05:21:36.020] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[13Sep2025 05:21:36.330] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[13Sep2025 05:21:36.336] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[13Sep2025 05:21:36.436] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
+[13Sep2025 05:21:36.593] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[13Sep2025 05:21:36.621] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[13Sep2025 05:21:36.631] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[13Sep2025 05:21:36.632] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[13Sep2025 05:21:36.635] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[13Sep2025 05:21:37.117] [modloading-worker-0/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Sep2025 05:21:37.121] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[13Sep2025 05:21:37.173] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[13Sep2025 05:21:37.229] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[13Sep2025 05:21:37.232] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[13Sep2025 05:21:37.236] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[13Sep2025 05:21:37.240] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[13Sep2025 05:21:37.242] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[13Sep2025 05:21:37.421] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
+[13Sep2025 05:21:37.565] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[13Sep2025 05:21:37.568] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[13Sep2025 05:21:38.266] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[13Sep2025 05:21:38.268] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[13Sep2025 05:21:38.272] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[13Sep2025 05:21:38.280] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[13Sep2025 05:21:38.281] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[13Sep2025 05:21:38.296] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[13Sep2025 05:21:38.298] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[13Sep2025 05:21:38.417] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[13Sep2025 05:21:38.582] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[13Sep2025 05:21:38.584] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:share_waypoint
+[13Sep2025 05:21:38.592] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[13Sep2025 05:21:38.604] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[13Sep2025 05:21:38.614] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[13Sep2025 05:21:38.622] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[13Sep2025 05:21:38.623] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[13Sep2025 05:21:38.685] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[13Sep2025 05:21:38.688] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[13Sep2025 05:21:39.593] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for titanium
+[13Sep2025 05:21:40.441] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
+[13Sep2025 05:21:40.529] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone items
+[13Sep2025 05:21:40.687] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Blocks
+[13Sep2025 05:21:40.758] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Wood
+[13Sep2025 05:21:40.759] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Entities
+[13Sep2025 05:21:40.759] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Entities
+[13Sep2025 05:21:40.762] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Creative Tabs
+[13Sep2025 05:21:40.762] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Sounds
+[13Sep2025 05:21:40.763] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Predicate
+[13Sep2025 05:21:40.767] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone State Providers
+[13Sep2025 05:21:40.775] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Decorators
+[13Sep2025 05:21:40.796] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Features
+[13Sep2025 05:21:40.806] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Structure Pieces
+[13Sep2025 05:21:40.807] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Types
+[13Sep2025 05:21:40.813] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Configured Features
+[13Sep2025 05:21:40.851] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Configured Features
+[13Sep2025 05:21:40.991] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Configured Features
+[13Sep2025 05:21:40.998] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Configured Features
+[13Sep2025 05:21:41.023] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[13Sep2025 05:21:41.035] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Placed Features
+[13Sep2025 05:21:41.064] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Tree Placed Features
+[13Sep2025 05:21:41.093] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Placed Features
+[13Sep2025 05:21:41.098] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Placed Features
+[13Sep2025 05:21:41.098] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[13Sep2025 05:21:41.126] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Template Pools
+[13Sep2025 05:21:41.161] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biome's We've Gone Village Template Pools
+[13Sep2025 05:21:41.165] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Poi Types
+[13Sep2025 05:21:41.166] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Villager Professions
+[13Sep2025 05:21:41.169] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[13Sep2025 05:21:41.335] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[13Sep2025 05:21:41.844] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for functionalstorage
+[13Sep2025 05:21:42.157] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[13Sep2025 05:21:42.205] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[13Sep2025 05:21:42.429] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[13Sep2025 05:21:48.678] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[13Sep2025 05:21:48.678] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[13Sep2025 05:21:48.678] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[13Sep2025 05:21:51.029] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.Entity from class it.hurts.octostudios.rarcompat.items.necklace.ScarfOfInvisibilityItem
+[13Sep2025 05:21:51.214] [main/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ae2wtlib:cycle_terminal
+[13Sep2025 05:21:51.732] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[13Sep2025 05:21:51.752] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[13Sep2025 05:21:51.800] [main/INFO] [Moonlight/]: Initialized block sets in 35ms
+[13Sep2025 05:21:51.882] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[13Sep2025 05:21:53.159] [main/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Sep2025 05:21:53.346] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[13Sep2025 05:21:53.485] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit/]: Initialized
+[13Sep2025 05:21:53.503] [modloading-worker-0/INFO] [com.black_dog20.bml.Bml/]: Setup Complete!
+[13Sep2025 05:21:53.511] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.4.16 initializing...
+[13Sep2025 05:21:53.521] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[13Sep2025 05:21:53.522] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Tools' module.
+[13Sep2025 05:21:53.534] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[13Sep2025 05:21:53.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[13Sep2025 05:21:53.696] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[13Sep2025 05:21:53.705] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[13Sep2025 05:21:53.716] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[13Sep2025 05:21:53.716] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[13Sep2025 05:21:53.748] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 clay_ball = 1 clay
+[13Sep2025 05:21:53.758] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 snowball = 1 snow_block
+[13Sep2025 05:21:53.758] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[13Sep2025 05:21:53.758] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 brick = 1 bricks
+[13Sep2025 05:21:53.759] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[13Sep2025 05:21:53.759] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[13Sep2025 05:21:53.759] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 quartz = 1 quartz_block
+[13Sep2025 05:21:53.759] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 9 melon_slice = 1 melon
+[13Sep2025 05:21:53.759] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 9 bamboo = 1 bamboo_block
+[13Sep2025 05:21:53.764] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 clay_ball = 1 clay
+[13Sep2025 05:21:53.775] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New denied storage item creative_vending_upgrade
+[13Sep2025 05:21:53.787] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: Adding ore conversions for types: forge:storage_blocks, forge:ingots, forge:nuggets
+[13Sep2025 05:21:53.790] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: Adding ore conversions for materials: aluminum, constantan, steel, uranium, invar, tin, lead, silver, platinum, nickel, osmium, bronze, electrum
+[13Sep2025 05:21:53.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.20.1 Target: null
+[13Sep2025 05:21:53.975] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[13Sep2025 05:21:53.993] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[13Sep2025 05:21:53.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[13Sep2025 05:21:54.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.2-neoforge Target: null
+[13Sep2025 05:21:54.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[13Sep2025 05:21:54.567] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:579) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.3.7.jar%23354!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.3.7.jar%23354!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23354!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sat Sep 06 14:33:56 UTC 2025
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:621) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[13Sep2025 05:21:54.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[13Sep2025 05:21:54.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.58 Target: null
+[13Sep2025 05:21:54.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pickupnotifier] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/pickupnotifier.json
+[13Sep2025 05:21:54.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pickupnotifier] Found status: UP_TO_DATE Current: 8.0.0 Target: null
+[13Sep2025 05:21:54.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[13Sep2025 05:21:54.816] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[13Sep2025 05:21:54.817] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[13Sep2025 05:21:55.012] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[13Sep2025 05:21:55.012] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[13Sep2025 05:21:55.012] [main/INFO] [terrablender/]: Registered region ars_nouveau:overworld to index 1 for type OVERWORLD
+[13Sep2025 05:21:55.065] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 2 for type OVERWORLD
+[13Sep2025 05:21:55.065] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 3 for type OVERWORLD
+[13Sep2025 05:21:55.066] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 4 for type OVERWORLD
+[13Sep2025 05:21:55.066] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[13Sep2025 05:21:55.066] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[13Sep2025 05:21:55.123] [main/INFO] [Moonlight/]: Initialized color sets in 55ms
+[13Sep2025 05:21:55.179] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_0 to index 5 for type OVERWORLD
+[13Sep2025 05:21:55.179] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_1 to index 6 for type OVERWORLD
+[13Sep2025 05:21:55.179] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_2 to index 7 for type OVERWORLD
+[13Sep2025 05:21:55.261] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[13Sep2025 05:21:55.262] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13Sep2025 05:21:55.264] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[13Sep2025 05:21:55.264] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[13Sep2025 05:21:55.279] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[13Sep2025 05:21:55.290] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[13Sep2025 05:21:55.290] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[13Sep2025 05:21:55.325] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[13Sep2025 05:21:55.339] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.gateways.compat.GatewayJadePlugin
+[13Sep2025 05:21:55.340] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.spawn.compat.SpawnerHwylaPlugin
+[13Sep2025 05:21:55.341] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.ench.compat.EnchHwylaPlugin
+[13Sep2025 05:21:55.342] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.apotheosis.adventure.compat.AdventureHwylaPlugin
+[13Sep2025 05:21:55.344] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[13Sep2025 05:21:55.344] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[13Sep2025 05:21:55.345] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[13Sep2025 05:21:55.346] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.JadeAddonsBase
+[13Sep2025 05:21:55.358] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.p3pp3rf1y.sophisticatedstorage.compat.jade.StorageJadePlugin
+[13Sep2025 05:21:55.359] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[13Sep2025 05:21:55.360] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[13Sep2025 05:21:55.361] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[13Sep2025 05:21:55.362] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[13Sep2025 05:21:55.372] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[13Sep2025 05:21:55.376] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[13Sep2025 05:21:55.378] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[13Sep2025 05:21:55.400] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.glodblock.github.extendedae.xmod.jade.JadePlugin
+[13Sep2025 05:21:55.401] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[13Sep2025 05:21:55.402] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at xfacthd.framedblocks.common.compat.jade.FramedJadePlugin
+[13Sep2025 05:21:55.402] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[13Sep2025 05:21:55.403] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at me.ramidzkh.mekae2.integration.jade.AMJadePlugin
+[13Sep2025 05:21:55.413] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[13Sep2025 05:21:55.415] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[13Sep2025 05:21:55.415] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[13Sep2025 05:21:55.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.21 Target: null
+[13Sep2025 05:21:55.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[13Sep2025 05:21:55.794] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:579) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.3.7.jar%23354!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.3.7.jar%23354!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23354!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sat Sep 06 14:33:56 UTC 2025
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:621) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[13Sep2025 05:21:55.807] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jetboots] Starting version check at https://raw.githubusercontent.com/Crimix/jetboots/1.20/update.json
+[13Sep2025 05:21:55.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jetboots] Found status: UP_TO_DATE Current: 1.2.6 Target: null
+[13Sep2025 05:21:55.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[13Sep2025 05:21:55.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 2.1.3 Target: 2.1.3
+[13Sep2025 05:21:55.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[13Sep2025 05:21:56.043] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
+[13Sep2025 05:21:56.044] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[13Sep2025 05:21:56.056] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[13Sep2025 05:21:56.056] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[13Sep2025 05:21:56.070] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[13Sep2025 05:21:56.071] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blackdogsmoddinglibrary] Starting version check at https://raw.githubusercontent.com/Crimix/bml/1.20/update.json
+[13Sep2025 05:21:56.084] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blackdogsmoddinglibrary] Found status: UP_TO_DATE Current: 1.1.8 Target: null
+[13Sep2025 05:21:56.085] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[13Sep2025 05:21:56.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[13Sep2025 05:21:56.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[13Sep2025 05:21:56.110] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[13Sep2025 05:21:56.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Sep2025 05:21:56.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[13Sep2025 05:21:56.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[13Sep2025 05:21:56.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.35
+[13Sep2025 05:21:56.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[13Sep2025 05:21:56.574] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:579) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.3.7.jar%23354!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.3.7.jar%23354!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23354!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sat Sep 06 14:33:56 UTC 2025
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:621) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[13Sep2025 05:21:56.577] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[13Sep2025 05:21:56.590] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[13Sep2025 05:21:56.590] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [appmek] Starting version check at https://api.modrinth.com/updates/applied-mekanistics/forge_updates.json
+[13Sep2025 05:21:56.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [appmek] Found status: BETA Current: 1.4.2 Target: null
+[13Sep2025 05:22:02.952] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Sep2025 05:22:08.886] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/hola123/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23353!/assets/.mcassetsroot' uses unexpected schema
+[13Sep2025 05:22:08.886] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/hola123/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23353!/data/.mcassetsroot' uses unexpected schema
+[13Sep2025 05:22:09.063] [main/INFO] [com.simibubi.create.Create/]: Created 830 recipes which will be injected into the game
+[13Sep2025 05:22:09.083] [main/INFO] [com.simibubi.create.Create/]: Created 4 tags which will be injected into the game
+[13Sep2025 05:22:09.223] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods []: []
+[13Sep2025 05:22:09.224] [main/INFO] [Moonlight/]: Finished runtime resources generation for 0 packs in a total of 0 ms
+[13Sep2025 05:22:10.649] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[13Sep2025 05:22:10.951] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[13Sep2025 05:22:10.955] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[13Sep2025 05:22:10.956] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[13Sep2025 05:22:10.970] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[13Sep2025 05:22:10.972] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[13Sep2025 05:22:10.972] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[13Sep2025 05:22:10.973] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[13Sep2025 05:22:10.974] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[13Sep2025 05:22:10.975] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[13Sep2025 05:22:10.975] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[13Sep2025 05:22:10.975] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[13Sep2025 05:22:10.976] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[13Sep2025 05:22:10.976] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[13Sep2025 05:22:10.976] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[13Sep2025 05:22:10.977] [main/INFO] [AE2:C/]: Scanning class de.mari_023.ae2wtlib.AE2WTLibTestPlots for plots
+[13Sep2025 05:22:11.049] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[13Sep2025 05:22:11.261] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:wraith_spawnable as it is missing following references: quark:soul_stone (from bygonenether-1.3.2-1.20.x.jar)
+[13Sep2025 05:22:11.262] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slab as it is missing following references: bygonenether:withered_blackstone_vertical_slab (from bygonenether-1.3.2-1.20.x.jar), 
+	bygonenether:cracked_withered_blackstone_vertical_slab (from bygonenether-1.3.2-1.20.x.jar), 
+	bygonenether:warped_nether_brick_vertical_slab (from bygonenether-1.3.2-1.20.x.jar)
+[13Sep2025 05:22:11.283] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slab as it is missing following references: bygonenether:withered_blackstone_vertical_slab (from bygonenether-1.3.2-1.20.x.jar), 
+	bygonenether:cracked_withered_blackstone_vertical_slab (from bygonenether-1.3.2-1.20.x.jar), 
+	bygonenether:warped_nether_brick_vertical_slab (from bygonenether-1.3.2-1.20.x.jar)
+[13Sep2025 05:22:12.281] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:bygonenether:blocks/withered_blackstone_vertical_slab
+java.lang.IllegalArgumentException: Can't find block bygonenether:withered_blackstone_vertical_slab
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:88) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Sep2025 05:22:12.387] [Worker-Main-3/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 15.281176 ms
+[13Sep2025 05:22:12.398] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:bygonenether:blocks/cracked_withered_blackstone_vertical_slab
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'bygonenether:cracked_withered_blackstone_vertical_slab'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Sep2025 05:22:12.643] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:expatternprovider:blocks/ex_emc_interface
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'expatternprovider:ex_emc_interface'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Sep2025 05:22:12.813] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:bygonenether:blocks/warped_nether_brick_vertical_slab
+java.lang.IllegalArgumentException: Can't find block bygonenether:warped_nether_brick_vertical_slab
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:88) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Sep2025 05:22:12.895] [main/INFO] [placebo/]: Registered 34 additional loot tables.
+[13Sep2025 05:22:13.074] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_import_bus as it's serializer returned null
+[13Sep2025 05:22:13.130] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mob_grinding_utils:beheading/piglin
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'tconstruct:piglin_head'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at mob_grinding_utils.recipe.BeheadingRecipe$Serializer.fromJson(BeheadingRecipe.java:154) ~[mob_grinding_utils-1.20.1-1.1.0.jar%23306!/:1.20.1-1.1.0]
+	at mob_grinding_utils.recipe.BeheadingRecipe$Serializer.m_6729_(BeheadingRecipe.java:145) ~[mob_grinding_utils-1.20.1-1.1.0.jar%23306!/:1.20.1-1.1.0]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraftforge.common.crafting.ConditionalRecipe$Serializer.fromJson(ConditionalRecipe.java:57) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[13Sep2025 05:22:13.150] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[13Sep2025 05:22:13.229] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe jetboots:wireless_crafting_upgrade_rs as it's serializer returned null
+[13Sep2025 05:22:13.230] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface as it's serializer returned null
+[13Sep2025 05:22:13.256] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe jetboots:wireless_crafting_upgrade_rs_smithing
+com.google.gson.JsonSyntaxException: Unknown item 'jetboots:wireless_crafting_upgrade_rs'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.black_dog20.jetboots.common.recipe.CustomSmithingRecipe$Serializer.fromJson(CustomSmithingRecipe.java:101) ~[Jet-Boots-1.20.1-1.2.6.jar%23291!/:1.2.6]
+	at com.black_dog20.jetboots.common.recipe.CustomSmithingRecipe$Serializer.m_6729_(CustomSmithingRecipe.java:97) ~[Jet-Boots-1.20.1-1.2.6.jar%23291!/:1.2.6]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[13Sep2025 05:22:13.260] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[13Sep2025 05:22:13.302] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe jetboots:wireless_range_upgrade_rs_smithing
+com.google.gson.JsonSyntaxException: Unknown item 'jetboots:wireless_range_upgrade_rs'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.black_dog20.jetboots.common.recipe.CustomSmithingRecipe$Serializer.fromJson(CustomSmithingRecipe.java:101) ~[Jet-Boots-1.20.1-1.2.6.jar%23291!/:1.2.6]
+	at com.black_dog20.jetboots.common.recipe.CustomSmithingRecipe$Serializer.m_6729_(CustomSmithingRecipe.java:97) ~[Jet-Boots-1.20.1-1.2.6.jar%23291!/:1.2.6]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[13Sep2025 05:22:13.306] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_upgrade as it's serializer returned null
+[13Sep2025 05:22:13.377] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[13Sep2025 05:22:13.389] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[13Sep2025 05:22:13.400] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe jetboots:wireless_range_upgrade_rs as it's serializer returned null
+[13Sep2025 05:22:13.423] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
+com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[13Sep2025 05:22:13.450] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[13Sep2025 05:22:13.464] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
+com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[13Sep2025 05:22:13.480] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_alt as it's serializer returned null
+[13Sep2025 05:22:13.520] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[13Sep2025 05:22:13.525] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:cutter/accumulation as it's serializer returned null
+[13Sep2025 05:22:13.533] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_import_bus_upgrade as it's serializer returned null
+[13Sep2025 05:22:13.579] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[13Sep2025 05:22:13.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_part as it's serializer returned null
+[13Sep2025 05:22:13.599] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_export_bus as it's serializer returned null
+[13Sep2025 05:22:13.611] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[13Sep2025 05:22:13.623] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 112 recipes
+[13Sep2025 05:22:13.659] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_mason_table_upgrade_from_storage_chipped_mason_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/mason_table_upgrade'
+[13Sep2025 05:22:13.668] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_glassblower_upgrade_from_storage_chipped_glassblower_upgrade: Unknown item id 'sophisticatedstorage:chipped/glassblower_upgrade'
+[13Sep2025 05:22:13.671] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_carpenters_table_upgrade_from_backpack_chipped_carpenters_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/carpenters_table_upgrade'
+[13Sep2025 05:22:13.680] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_alchemy_bench_upgrade_from_backpack_chipped_alchemy_bench_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/alchemy_bench_upgrade'
+[13Sep2025 05:22:13.692] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_loom_table_upgrade_from_storage_chipped_loom_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/loom_table_upgrade'
+[13Sep2025 05:22:13.720] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_botanist_workbench_upgrade_from_backpack_chipped_botanist_workbench_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/botanist_workbench_upgrade'
+[13Sep2025 05:22:13.726] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_tinkering_table_upgrade_from_backpack_chipped_tinkering_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/tinkering_table_upgrade'
+[13Sep2025 05:22:13.759] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_loom_table_upgrade_from_backpack_chipped_loom_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/loom_table_upgrade'
+[13Sep2025 05:22:13.763] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_carpenters_table_upgrade_from_storage_chipped_carpenters_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/carpenters_table_upgrade'
+[13Sep2025 05:22:13.798] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_botanist_workbench_upgrade_from_storage_chipped_botanist_workbench_upgrade: Unknown item id 'sophisticatedstorage:chipped/botanist_workbench_upgrade'
+[13Sep2025 05:22:13.799] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_glassblower_upgrade_from_backpack_chipped_glassblower_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/glassblower_upgrade'
+[13Sep2025 05:22:13.801] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_mason_table_upgrade_from_backpack_chipped_mason_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/mason_table_upgrade'
+[13Sep2025 05:22:13.805] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_tinkering_table_upgrade_from_storage_chipped_tinkering_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/tinkering_table_upgrade'
+[13Sep2025 05:22:13.807] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_alchemy_bench_upgrade_from_storage_chipped_alchemy_bench_upgrade: Unknown item id 'sophisticatedstorage:chipped/alchemy_bench_upgrade'
+[13Sep2025 05:22:13.841] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 6696 advancements
+[13Sep2025 05:22:13.857] [main/INFO] [placebo/]: Registered 26 additional recipes.
+[13Sep2025 05:22:13.912] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[13Sep2025 05:22:13.922] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 19 curio slots
+[13Sep2025 05:22:13.929] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[13Sep2025 05:22:13.930] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio entities
+[13Sep2025 05:22:13.931] [main/INFO] [Dungeon Crawl/]: Loading data...
+[13Sep2025 05:22:14.242] [main/INFO] [Dungeon Crawl/]: Done.
+[13Sep2025 05:22:14.249] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id bygonenether:soul_stone_from_block - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: bygonenether:replace_item
+[13Sep2025 05:22:14.249] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id bygonenether:soul_stone_in_catacombs - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: bygonenether:replace_item
+[13Sep2025 05:22:14.255] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[13Sep2025 05:22:14.258] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
+[13Sep2025 05:22:14.259] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23358!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23353!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[13Sep2025 05:22:14.260] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
+[13Sep2025 05:22:14.267] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 61 materials in 5.840752 ms
+[13Sep2025 05:22:14.272] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 45 materials in 5.061843 ms
+[13Sep2025 05:22:14.281] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 9.371616 ms
+[13Sep2025 05:22:14.290] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 8.615346 ms
+[13Sep2025 05:22:14.351] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 60.50962 ms
+[13Sep2025 05:22:14.355] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 4.15865 ms
+[13Sep2025 05:22:14.356] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.550586 ms
+[13Sep2025 05:22:14.359] [main/INFO] [tconstruct/]: Loaded 54 spilling fluids in 3.529829 ms
+[13Sep2025 05:22:14.361] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 1.307076 ms
+[13Sep2025 05:22:14.372] [main/INFO] [placebo/]: Registered 32 gear_sets.
+[13Sep2025 05:22:14.390] [main/INFO] [Gateways to Eternity/]: Registered 7 gateways.
+[13Sep2025 05:22:14.391] [main/INFO] [Apotheosis : Enchantment/]: Registered 29 enchanting_stats.
+[13Sep2025 05:22:14.393] [main/INFO] [Apotheosis : Adventure/]: Registered 6 rarities.
+[13Sep2025 05:22:14.407] [main/INFO] [Apotheosis : Adventure/]: Registered 97 affixes.
+[13Sep2025 05:22:14.412] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:rare for category curios:spellbookRequired: 2; Provided: 0
+[13Sep2025 05:22:14.414] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:epic for category curios:spellbookRequired: 2; Provided: 0
+[13Sep2025 05:22:14.415] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category helmetRequired: 3; Provided: 2
+[13Sep2025 05:22:14.415] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category bootsRequired: 3; Provided: 2
+[13Sep2025 05:22:14.415] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category curios:spellbookRequired: 3; Provided: 0
+[13Sep2025 05:22:14.416] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category helmetRequired: 4; Provided: 2
+[13Sep2025 05:22:14.417] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bootsRequired: 4; Provided: 2
+[13Sep2025 05:22:14.417] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category curios:spellbookRequired: 4; Provided: 0
+[13Sep2025 05:22:14.417] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bowRequired: 5; Provided: 4
+[13Sep2025 05:22:14.418] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category crossbowRequired: 5; Provided: 4
+[13Sep2025 05:22:14.418] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category pickaxeRequired: 5; Provided: 4
+[13Sep2025 05:22:14.418] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shovelRequired: 5; Provided: 4
+[13Sep2025 05:22:14.432] [main/INFO] [Apotheosis : Adventure/]: Registered 34 gems.
+[13Sep2025 05:22:14.439] [main/INFO] [Apotheosis : Adventure/]: Registered 100 affix_loot_entries.
+[13Sep2025 05:22:14.448] [main/INFO] [Apotheosis : Adventure/]: Registered 25 bosses.
+[13Sep2025 05:22:14.455] [main/INFO] [Apotheosis : Adventure/]: Registered 8 rogue_spawners.
+[13Sep2025 05:22:14.458] [main/INFO] [Apotheosis : Adventure/]: Registered 5 minibosses.
+[13Sep2025 05:22:14.471] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 13.128086 ms
+[13Sep2025 05:22:14.475] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 4.005214 ms
+[13Sep2025 05:22:14.481] [main/INFO] [Apotheosis : Village/]: Registered 29 wanderer_trades.
+[13Sep2025 05:22:19.594] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[13Sep2025 05:22:19.742] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Sep2025 05:22:19.742] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Sep2025 05:22:19.743] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Sep2025 05:22:19.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Sep2025 05:22:19.883] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Sep2025 05:22:19.904] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Sep2025 05:22:19.991] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Sep2025 05:22:19.992] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Sep2025 05:22:19.992] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Sep2025 05:22:19.992] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Sep2025 05:22:20.045] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[13Sep2025 05:22:20.046] [Thread-4/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[13Sep2025 05:22:20.047] [Thread-4/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[13Sep2025 05:22:20.054] [Server thread/INFO] [Puzzles Lib/]: Loading server config for pickupnotifier
+[13Sep2025 05:22:20.057] [Thread-4/INFO] [Puzzles Lib/]: Reloading server config for pickupnotifier
+[13Sep2025 05:22:20.113] [Server thread/INFO] [Enchanting Infuser API/]: Set new EnchantStatsProvider for mod apotheosis
+[13Sep2025 05:22:20.114] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[13Sep2025 05:22:20.116] [Thread-4/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[13Sep2025 05:22:20.118] [Thread-4/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[13Sep2025 05:22:20.230] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[13Sep2025 05:22:20.231] [Thread-4/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[13Sep2025 05:22:20.232] [Thread-4/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[13Sep2025 05:22:20.526] [Server thread/INFO] [FTB Teams/]: loaded team data: 5 known players, 5 teams total
+[13Sep2025 05:22:21.319] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[13Sep2025 05:22:21.319] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[13Sep2025 05:22:21.320] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Sep2025 05:22:21.961] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Sep2025 05:22:30.103] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Sep2025 05:22:30.121] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Sep2025 05:22:30.143] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Sep2025 05:22:30.154] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Sep2025 05:22:30.163] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Sep2025 05:22:30.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Sep2025 05:22:31.855] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 05:22:31.942] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 05:22:31.952] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 05:22:31.976] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 05:22:32.169] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 05:22:32.674] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 05:22:33.181] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 05:22:33.671] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 05:22:34.166] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Sep2025 05:22:34.666] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[13Sep2025 05:22:35.168] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[13Sep2025 05:22:35.678] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[13Sep2025 05:22:36.178] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[13Sep2025 05:22:36.817] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[13Sep2025 05:22:37.259] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[13Sep2025 05:22:37.674] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[13Sep2025 05:22:38.168] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[13Sep2025 05:22:38.692] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[13Sep2025 05:22:39.173] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[13Sep2025 05:22:39.672] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[13Sep2025 05:22:40.042] [Server thread/INFO] [FluxNetworks/]: Load 11 chunks by 11 flux devices in minecraft:overworld
+[13Sep2025 05:22:40.044] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9879 ms
+[13Sep2025 05:22:40.044] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.037s)! For help, type "help"
+[13Sep2025 05:22:40.173] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Sep2025 05:22:40.189] [Server thread/INFO] [xaero.map.WorldMap/]: Registered synced player tracker system: ftb_teams
+[13Sep2025 05:22:40.195] [Server thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[13Sep2025 05:22:40.204] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[13Sep2025 05:22:40.225] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[13Sep2025 05:22:40.265] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[13Sep2025 05:22:40.265] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[13Sep2025 05:22:40.266] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[13Sep2025 05:22:40.266] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[13Sep2025 05:22:40.325] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[13Sep2025 05:22:40.950] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager

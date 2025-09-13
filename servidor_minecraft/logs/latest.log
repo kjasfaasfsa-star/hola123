@@ -1556,3 +1556,15 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [13Sep2025 06:11:34.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Melosito_Neo has made the advancement [Make Soup!]
 [13Sep2025 06:16:18.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Melosito_Neo has completed the challenge [Alchemy, But Make It Sciencey]
 [13Sep2025 06:21:55.487] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Honeyed Archer'/9035, l='ServerLevel[world]', x=-826.61, y=103.15, z=97.27] died: Honeyed Archer burned to death
+[13Sep2025 06:33:54.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Melosito_Neo has completed the challenge [Gallons of Blood and Tears]
+[13Sep2025 06:35:13.632] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Melosito_Neo moved too quickly! -9.275330241128586,4.42713999213408,-1.72709116043346
+[13Sep2025 06:35:13.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Melosito_Neo> a
+[13Sep2025 06:35:13.675] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21794ms or 435 ticks behind
+[13Sep2025 06:36:09.845] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SkeletonDruid['Olsen the Sneaky'/19045, l='ServerLevel[world]', x=-6832.45, y=6.00, z=911.66] died: Olsen the Sneaky was slain by Melosito_Neo
+[13Sep2025 06:40:20.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Melosito_Neo has reached the goal [Alpha Fur]
+[13Sep2025 06:40:42.617] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity CarminiteGolem['Lady Cassandra the Honest'/19800, l='ServerLevel[world]', x=-6932.70, y=7.00, z=773.50] died: Lady Cassandra the Honest was slain by Melosito_Neo
+[13Sep2025 06:41:09.743] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Melosito_Neo moved too quickly! -2.7938249235876356,2.2500000894069636,-12.424023460878743
+[13Sep2025 06:41:19.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Melosito_Neo> a
+[13Sep2025 06:44:07.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Melosito_Neo has reached the goal [Clear Skies]
+[13Sep2025 06:44:59.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Melosito_Neo has reached the goal [Mighty Stroganoff]
+[13Sep2025 06:45:18.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Melosito_Neo moved too quickly! 4.233205546364843,0.0,12.483894709184597
